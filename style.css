@@ -1,0 +1,39 @@
+ 
+        body {
+            font-family: 'Cairo', sans-serif;
+            background-color: #f8fafc;
+        }
+
+        .card-shadow {
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        }
+
+        ::-webkit-scrollbar {
+            display: none;
+        }
+
+        .modal-backdrop {
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        @media (max-width: 640px) {
+            header h1 {
+                font-size: 1.25rem;
+            }
+
+            .card {
+                padding: 1rem;
+            }
+
+            button {
+                font-size: 0.875rem;
+                padding: 0.5rem 0.75rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .modal-backdrop>div {
+                max-width: 95%;
+                margin: 1rem;
+            }
+        }
