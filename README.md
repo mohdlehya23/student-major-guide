@@ -25,28 +25,11 @@ The system provides a **user-friendly interface** for students, researchers, and
 | **Database** | Firebase Firestore / Realtime Database |
 | **Hosting** | Firebase Hosting |
 
----
+🎯 Project Goals :
 
-## 📂 Project Structure
+To create a centralized digital directory that helps students and educational institutions
+in Gaza access accurate and up-to-date academic information effortlessly — enhancing transparency, accessibility, and decision-making in higher education.
 
-project-root/
-│
-├── public/ # Static assets and Firebase configuration
-├── src/
-│ ├── components/ # Reusable UI components
-│ ├── pages/ # Main pages (Home, Universities, Colleges, Admin, etc.)
-│ ├── services/ # Firebase and API integration
-│ └── App.js # Main app component
-│
-├── package.json
-└── README.md
-
-
----
-
-
-🎯 Project Goals
-To create a centralized digital directory that helps students and educational institutions in Gaza access accurate and up-to-date academic information effortlessly — enhancing transparency, accessibility, and decision-making in higher education.
 
 👨‍💻 Author
 Mohammed Lehya
